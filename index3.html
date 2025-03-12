@@ -30,33 +30,38 @@
     <br>
 
     <form class="">
-      <label for="MortgageAmount">Mortgage Amount</label> 
-      <div class="flex mb-3">
-        <p class="border border-black w-7 text-center pl-2 pr-2 
-        border-r-0 bg-blue-100 rounded-l">&pound</p>
-        <input type="number" name="number" id="numberInput" class="border 
-        border-black border-l-0 pl-3 py-1 rounded-r w-52 focus:outline-none">
-      </div>
+     <div class="mb-3">
+        <label for="MortgageAmount">Mortgage Amount</label> 
+        <div class="flex">
+          <p class="border border-red-600 w-7 text-center pl-2 pr-2 
+          border-r-0 bg-red-600 rounded-l text-white">&pound</p>
+          <input type="number" name="number" id="numberInput" class="border 
+          border-red-600 border-l-0 pl-3 py-1 rounded-r w-52 focus:outline-none">
+        </div>
+        <span class="error-text-index3 text-xl text-red-600">This field is required</span>
+     </div>
 
-      <div class="termRate-lg">
+      <div class="termRate-lg  mb-3">
        <div class="leftSide-desktopview">
         <label for="MortgageTerm">Mortgage Term</label> 
-        <div class="flex mb-3">
+        <div class="flex">
           <input type="number" name="number" id="numberInput" class="targetInput border 
-          border-black border-r-0 pl-3 py-1 rounded-l w-44 lg:w-20 focus:outline-none">
-          <p class="border border-black w-16 text-center pl-2 pr-2 
-          border-l-0 bg-blue-100 rounded-r">years</p>
+          border-red-600 border-r-0 pl-3 py-1 rounded-l w-44 lg:w-20 focus:outline-none">
+          <p class="border border-red-600 w-16 text-center pl-2 pr-2 
+          border-l-0 bg-red-600 rounded-r text-white">years</p>
         </div>
+        <span class="error-text-index3 text-xl text-red-600">This field is required</span>
        </div>
   
-        <div class="rightSide-desktopview">
+        <div class="rightSide-desktopview mb-3">
           <label for="InterestRate">Interest Rate</label> 
-          <div class="flex mb-3">
+          <div class="flex">
           <input type="number" name="number" id="numberInput" class="border 
-          border-black border-r-0 pl-3 py-1 rounded-l w-52 focus:outline-none">
-          <p class="border border-black w-7 text-center pl-2 pr-2 
-          border-l-0 bg-blue-100 rounded-r">%</p>
+          border-red-600 border-r-0 pl-3 py-1 rounded-l w-52 focus:outline-none">
+          <p class="border border-red-600 w-7 text-center pl-2 pr-2 
+          border-l-0 bg-red-600 rounded-r text-white">%</p>
           </div>
+          <span class="error-text-index3 text-xl text-red-600 ml-5">This field is required</span>
         </div>
       </div>
 
@@ -73,10 +78,11 @@
         <span class="checkmark"></span>
         <span class="checkboxText">Interest Rate</span>
       </label>
+      <span class="error-text-index3 text-xl text-red-600">This field is required</span>
 
       <br>
 
-      <button class="border rounded-3xl py-2 px-5 flex">
+      <button class="border rounded-3xl py-2 px-5 flex mt-5">
         <img src="assets/images/icon-calculator.svg" alt="">
         <span class="text-black pl-2 pt-1 text-bolder">Calculator Repayments</span>
       </button>
@@ -85,7 +91,7 @@
    </div>
   </section>
 
-  <section class="section-2">
+  <section class="section-2 section-2-index3">
     <div class="flex justify-center pt-8">
     <img src="assets/images/illustration-empty.svg" alt="">
     </div>
