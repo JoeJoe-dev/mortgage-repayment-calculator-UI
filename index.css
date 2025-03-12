@@ -179,11 +179,11 @@ button span {
 
     /* SECTION 2 */
     .section-2 {
-        height: 29rem;
+        height: 29rem !important;
         border-bottom-left-radius: 4rem;
         border-top-right-radius: 1rem;
         border-bottom-right-radius: 1rem;
-        padding-top: 5.5rem;
+        padding-top: 6.5rem;
     }
 
     .section-2 div img {
@@ -197,7 +197,22 @@ button span {
     
 /* SECTION-2 OF index2.html */
 .section-2-index2 {
-    
+    height: 29rem !important;
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-top: 5.8rem;
+    padding-left: 1.5rem;
+}
+
+/* SECTION-2 index3.html */
+.section-2-index3 {
+    height: 35.1rem !important;
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-top: 5.8rem;
+    padding-left: 1.5rem;
 }
 
 } 
